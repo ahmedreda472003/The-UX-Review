@@ -1,0 +1,304 @@
+@media screen and (min-width: 640px) {
+  /*^ latest-articles */
+  .latest-articles .article-title span {
+    display: block;
+  }
+
+
+  /*^ start hero-section */
+  .hero-section .hero-content h2 {
+    font-size: 72px;
+  }
+
+
+
+  /*^ start rebellion */
+  .rebellion .rebellion-intro .join-button button {
+    width: 50%;
+  }
+
+  /* ^ start footer  */
+  .footer .sidebar-content {
+    flex-direction: row;
+    column-gap: 100px;
+  }
+
+  .footer .categories-section {
+    width: calc(20% - 50px);
+  }
+
+  .footer .newsletter-section {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  /*^ start navbar */
+  .navbar .navbar-center {
+    display: block;
+  }
+  .navbar .navbar-right {
+    display: block;
+  }
+
+  /*^ start rebellion */
+  .rebellion .rebellion-intro .join-button button {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /*^ start navbar */
+
+  .navbar .navbar-center {
+    display: block;
+  }
+  .navbar .navbar-right {
+    display: block;
+  }
+
+  /*^ start hero-section */
+  .hero-section .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-section .hero-content {
+    width: 50%;
+  }
+
+  .hero-section .hero-content h2 {
+    font-size: 72px;
+  }
+
+  .hero-section .hero-content p {
+  font-size: 24px;
+}
+
+
+  .hero-section .hero-image {
+    width: 45%;
+    transform: rotate(2deg);
+  }
+
+  /*^ start latest-articles */
+  .latest-articles .container {
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .latest-articles-left {
+    width: 65%;
+  }
+
+  .latest-articles-right {
+    width: 35%;
+  }
+
+  .latest-articles .article-card {
+    flex-direction: row;
+  }
+
+  .latest-articles .article-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 30px;
+  }
+
+  /*^ start Meet the authors */
+
+  .meet-authors .cards-author .card {
+    width: calc(50% - 10px);
+  }
+
+  .meet-authors .cards-author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .meet-authors .title-author h2 {
+    font-size: 48px;
+  }
+
+  /*^ start rebellion */
+
+  .rebellion .rebellion-intro .join-button button {
+    width: 80%;
+  }
+
+  .rebellion .rebellion-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  .rebellion .rebellion-intro {
+    width: 50%;
+  }
+
+  .rebellion .container .rebellion-quote {
+    width: calc(50% - 70px);
+  }
+
+  /* ^ start footer  */
+  .footer .sidebar-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 0;
+  }
+
+  .footer .hero-description {
+    width: 40%;
+  }
+  .footer .categories-section {
+    width: 20%;
+  }
+
+  .footer .newsletter-section {
+    width: 40%;
+  }
+}
+
+/*^ للسيكشن الرابع فقط */
+@media screen and (min-width: 1280px) {
+  /*^ start latest-articles */
+  .latest-articles-left {
+    width: 65%;
+  }
+
+  .latest-articles-right {
+    width: 30%;
+  }
+
+  /*^ start Meet the authors */
+  .meet-authors .cards-author .card {
+    width: calc(33.333% - 20px);
+  }
+
+  .meet-authors .cards-author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .meet-authors .title-author h2 {
+    font-size: 48px;
+  }
+
+  /* ^ start footer  */
+  .footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1485px) {
+  /*^ start navbar */
+  .navbar .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  /*^ start hero-section */
+  .hero-section .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .hero-section .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-section .hero-content {
+    width: 50%;
+  }
+
+  .hero-section .hero-content h2 {
+    font-size: 72px;
+  }
+
+  .hero-section .hero-image {
+    width: 45%;
+    transform: rotate(2deg);
+  }
+
+  /*^ start latest-articles */
+
+  .latest-articles .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .latest-articles-left {
+    width: 73%;
+  }
+
+  .latest-articles-right {
+    width: 25%;
+  }
+
+  /*^ start Meet the authors */
+
+  .meet-authors .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .meet-authors .cards-author .card {
+    width: calc(33.333% - 20px);
+  }
+
+  .meet-authors .cards-author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .meet-authors .title-author h2 {
+    font-size: 48px;
+  }
+
+  /*^ start rebellion */
+
+  .rebellion .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .rebellion .rebellion-intro .join-button button {
+    width: 80%;
+  }
+
+  .rebellion .rebellion-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  .rebellion .rebellion-intro {
+    width: 40%;
+  }
+
+  .rebellion .container .rebellion-quote {
+    width: calc(60% - 60px);
+  }
+
+  /* ^ start footer */
+
+  .footer .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
